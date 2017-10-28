@@ -10,6 +10,7 @@
 >>> print(decode.works)   # key String  
 >>> print(decode[3].name) # key Integear = > inset name=alaa
 >>> print(decode[0])      # Key Integear 
+>>> decode.pprint()  #// print all 
 
 ```
 
@@ -18,5 +19,20 @@
 >> [1, 2, 3, 4]
 >> alaa
 >> [1, 2]
+>> {
+  "0": [
+      1,
+      2
+    ],
+  "3": {
+      "name": "alaa"
+    },
+  "works": [
+      1,
+      2,
+      3,
+      4
+    ]
+}
 
 ```
